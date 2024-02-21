@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+
+
+.search-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search {
+  padding: 10px 15px;
+  min-width: 450px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.container {
+  display: flex;
+  min-width: 1500px;
+  max-width: 600px;
+  margin-inline: auto;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.logo-section {
+  padding-inline: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-block: 25px;
+  padding-inline: 20px;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #4895ef;
+  border: 2px solid #4895ef;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.link-section {
+  z-index: 1;
+}
+
+.link {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.primary {
+  border: 2px solid #4895ef;
+  color: #4895ef;
+  background: transparent;
+
+}
+
+/* Navbar */
+
+
+.image-setting {
+  width: 900px;
+  border-radius: 10px;
+  border: 2px solid red;
+}
+
+.container-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form {
+  /* min-width: 233px; */
+  width: 50%;
+  padding: 10px 15px;
+  margin: 0 10px 0 5px;
+}
+
+.sec-1 {
+  display: flex;
+  margin: 10px 0 10px 0;
+}
+
+.form-section {
+  border: 2px solid black;
+}
+
+.textarea-msg {
+  width: 93%;
+  /* min-width: 500px; */
+  padding: 15px 15px;
+}
+
+.text-section {
+  padding: 15px 20px;
+}
+
+.text-section-title {
+  font-weight: bold;
+  font-size: 0.9rem;
+  opacity: 0.5;
+  border: 2px solid red;
+  width: 100%;
+}
+
+.fill-form {
+  padding: 15px 20px;
+  border: 2px solid red;
+}
+
+.btn {
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  background: transparent;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #4895ef;
+  border: 2px solid #4895ef;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}

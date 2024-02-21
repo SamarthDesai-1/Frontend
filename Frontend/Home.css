@@ -170,6 +170,13 @@ nav>ul>li:hover .megamenu {
   color: black;
 }
 
+.primary {
+  border: 2px solid #4895ef;
+  color: #4895ef;
+  background: transparent;
+
+}
+
 .btn {
   padding: 10px 15px;
   border-radius: 5px;
@@ -177,13 +184,6 @@ nav>ul>li:hover .megamenu {
   cursor: pointer;
   background: transparent;
   font-weight: bold;
-}
-
-.primary {
-  border: 2px solid #4895ef;
-  color: #4895ef;
-  background: transparent;
-
 }
 
 .btn-primary {
@@ -477,10 +477,7 @@ nav>ul>li:hover .megamenu {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10vh;
-}
 
-.section {
-  padding: 15px 10px;
 }
 
 .section ul li {
@@ -645,4 +642,15 @@ nav>ul>li:hover .megamenu {
 
 .section {
   min-width: 300px;
+  padding: 15px 10px;
+}
+
+
+
+
+
+
+.disable-link {
+  text-decoration: none;
+  color: black;
 }
